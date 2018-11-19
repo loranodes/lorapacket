@@ -8,3 +8,7 @@ Utilising elements from [SemTech's LoRaWAN library](https://github.com/ARMmbed/m
 If you wish to use a RFM95W or similar radio, make sure to have the `arduino-LoRa` library installed.
 
 Download from here: https://github.com/sandeepmistry/arduino-LoRa
+
+## Example
+
+See `examples/transmission_test` for an example.
