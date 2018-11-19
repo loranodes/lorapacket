@@ -1,7 +1,7 @@
 # lorapacket
 Simple LoRaWAN Packet Generator
 
-Utilising elements from SemTech's LoRaWAN library (https://github.com/ARMmbed/mbed-os/tree/master/features/lorawan/lorastack/mac), this library encodes LoRaWAN packets ready for sending using the radio of your choice.
+Utilising elements from [SemTech's LoRaWAN library](https://github.com/ARMmbed/mbed-os/tree/master/features/lorawan/lorastack/mac), this library encodes LoRaWAN packets ready for sending using the radio of your choice.
 
 ## Prerequisites:
 
