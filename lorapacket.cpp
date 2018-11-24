@@ -2,11 +2,19 @@
 #include "lorapacket.h"
 #include "Arduino.h"
 
-uint8_t generatePacket(uint8_t payload[], uint8_t payloadLength, uint32_t DevAddr, uint8_t NwkSKey[], uint8_t AppSKey[], uint8_t LoRaMacBuffer[]){
+uint8_t generatePacket(
+    uint8_t payload[],
+    uint8_t payloadLength,
+    uint32_t DevAddr,
+    uint8_t NwkSKey[],
+    uint8_t AppSKey[],
+    uint16_t UpLinkCounter,
+    uint8_t LoRaMacBuffer[]
+){
+    
     uint8_t MHDR = 0x40;
     
     uint8_t fCtrl = 0;
-    uint16_t UpLinkCounter = 1;
 
     uint8_t pktHeaderLen = 0;
     uint8_t LoRaMacBufferPktLen;
